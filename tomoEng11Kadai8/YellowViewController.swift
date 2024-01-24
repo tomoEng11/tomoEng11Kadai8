@@ -15,7 +15,8 @@ class YellowViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         slider.minimumValue = 0
-        slider.maximumValue = 1    }
+        slider.maximumValue = 1
+    }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

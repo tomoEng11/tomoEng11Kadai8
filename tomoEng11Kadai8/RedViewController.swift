@@ -28,7 +28,4 @@ class RedViewController: UIViewController {
         delegate.sharedSliderValue = slider.value
         label.text = String(slider.value)
     }
-    
-
 }
-
